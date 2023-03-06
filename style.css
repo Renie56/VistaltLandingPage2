@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'CeraRoundProRegular';
+    src: url('./fonts/TypeMates\ \ CeraRoundProRegular.otf');
+}
+@font-face {
+    font-family: 'CeraRoundProBold';
+    src: url('./fonts/TypeMates\ \ Cera\ Round\ Pro\ Bold.otf');
+}
+@font-face {
+    font-family: 'CeraRoundProMedium';
+    src: url('./fonts/TypeMates\ \ CeraRoundProMedium.otf');
+}
+@font-face {
+    font-family: 'CeraRoundProLight';
+    src: url('./fonts/TypeMates\ \ CeraRoundProLight.otf');
+}
+*{
+    margin: auto;
+    padding: 0;
+    max-width: 600px;
+    font-family: 'CeraRoundProRegular';
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    mix-blend-mode: normal;
+    color: #28313F;
+}
+body{
+    position: absolute;
+    margin: 0;
+    padding: 0 65px;
+    box-sizing: border-box;
+    background-image: url(./img/Ellipse.svg);
+    background-position: 0 24%;
+    background-size: auto, auto;
+    background-repeat: no-repeat;
+}
+header{
+    padding: 0;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.logo-img{
+    width: 30%;
+    margin: 8% auto 2% 0;
+}
+.puzzle-img{
+    width: 281px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    margin: 3px auto auto -20px;
+}
+h1{
+    font-family: 'CeraRoundProBold';
+    position: relative;
+    align-items: start;
+    color: #0F2A5A;
+    letter-spacing: 0.02em;
+    line-height: 34px;
+    font-size: 28px;
+    margin: 4% 5%;
+}
+.main > p{
+    align-items: start;
+    margin: auto 5%;
+}
+.activation-steps{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+article{
+    display: flex;
+    width: 100%;
+    height: 164px;
+    background-color: #F5F7F9;
+    margin-top: 4%;
+    padding: 0;
+}
+.app{
+    position: absolute;
+    margin: 0;
+    padding: 18px 17px 0 17px;
+    background-image: url(./img/BackApp.svg);
+    background-repeat: no-repeat;
+}
+.sircle-on-app{
+    position: relative;
+    margin: auto auto 14% 0.5%;
+}
+.sircle-on-app img{
+    position: absolute;
+    width: 61px;
+}
+article h3{
+    position: relative;
+    margin: auto auto 5.25% 4.5%;
+}
+article div{
+    margin: auto 10% auto 30%;
+}
+article h3{
+    font-family: 'CeraRoundProBold';
+    line-height: 19px;
+    color: #0F2A5A;
+}
+article p{
+    font-size: 14px;
+    line-height: 21px;
+    margin: 3% 0;
+}
+ul{
+    margin: 4% 5% auto 5%;
+    list-style: none;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    color: #28313F;
+    margin-bottom: 3%;
+}
+.function p{
+    font-family: 'CeraRoundProMedium';
+    margin-left: 5%;
+    width: auto;
+    height: auto;
+}
+.icon{
+    margin: 0;
+}
+.button-space{
+    margin-top: 4%;
+    background-color: #E2E6EB;
+    border-radius: 15px;
+    width: 95%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.button-space p{
+    display: flex;
+    justify-content: center;
+    font-family: 'CeraRoundProMedium';
+    color: #0E2D54;
+}
+.button{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 45%;
+    height: auto;
+    background-color: #63AE18;
+    border-radius: 100px;
+}
+.button p{
+    color: white;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin: 7%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+a{
+    text-decoration: none;
+}
+.farewell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.farewell .textmedium, .farewell .textbold{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    mix-blend-mode: normal;
+    color: #0E2D54;
+}
+.farewell .textbold{
+    font-size: 18px;
+}
+.img_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img_text .textbold{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 140%;
+    color: #0F2A5A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+footer{
+    background-color: #153769;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.networks{
+    margin: 7%;
+}
+.networks .icons{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacts a, .rules_safety a{
+    font-family: 'CeraRoundProLight';
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.number img, .mail img{
+    margin-right: 5px;
+}
+.number, .privacy_policy{
+    padding-top: 7%;
+}
+.rules_safety{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width:300px){
+    body{
+        background-image: url(./img/Ellipse2.svg);
+        background-position: 0 5%;
+    }
+    header{
+        width: auto;
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+    .main{
+        width: 90%;
+        margin: auto;
+    }
+    footer{
+        width: 100%;
+    }
+    .text .textbold{
+        width: 60%;
+        font-size: 22px;
+    }
+    .textregular, .text .textmedium, .watchword, .services{
+        width: 95%;
+        text-align: start;
+        padding-bottom: 5%;
+    }
+    .introduction{
+        margin-top: 15%;
+    }
+    .centreimg{
+        margin-left: 7.5%;
+    }
+    .title{
+        position: absolute;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .watchword .textregular{
+        margin: 0;
+        width: 100%;
+    }
+    .watchword .textmedium{
+        font-size: 18px;
+    }
+    ul li{
+        display: flex;
+        flex-direction: column;
+        color: #28313F;
+        margin-bottom: 3%;
+    }
+    .icons{
+        margin-left: 0;
+        justify-content: left;
+    }
+    .services{
+        padding-bottom: 0;
+    }
+    .servise_text .textregular{
+        margin-left: 0;
+        justify-content: left;
+        margin-bottom: 3%;
+    }
+    .servise_text .name{
+        margin: 7% 0;
+    }
+    .farewell{
+        margin: 7% auto;
+    }
+    .farewell .textmedium{
+        line-height: 18px;
+        margin-bottom: 5%;
+    }
+    .button_back{
+        border-radius: 10px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .button_back .textmedium{
+        width: 74%;
+        text-align: center;
+        line-height: 20px;
+        padding-top: 10%;
+    }
+    .button{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    .button .textbold{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 12px;
+        line-height: 133%;
+        margin: 10%;
+    }
+    .farewell{
+        width: 90%;
+    }
+    .farewell .textmedium{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .img_text{
+        margin: 0 10%;
+    }
+    .img_text .text .textbold{
+        text-align: start;
+        font-size: 16px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        padding: 12% 7%;
+    }
+    .networks, .contacts, .rules_safety{
+        justify-content: left;
+        margin: 5%;
+    }
+    .networks .icons{
+        margin-top: 40%;
+    }
+    .icons a{
+        margin-right: 30%;
+    }
+    .number{
+        padding-top: 10%;
+    }
+    .rules_safety a{
+        font-size: 14px;
+        padding: 0%;
+    }
+    .mail{
+        margin-left: 0;
+    }
+    .terms_of_service, .privacy_policy{
+        hyphens: none;
+    }
+    .rules_safety{
+        display: flex;
+        flex-direction: row;
+    }
+    .vr {
+        display: inline;
+        height: 15px;
+        border-left: 2px solid #d0d0d0;
+        margin: auto 5px;
+    }
+}
