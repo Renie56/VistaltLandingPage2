@@ -30,10 +30,6 @@ body{
     margin: 0;
     padding: 0 65px;
     box-sizing: border-box;
-    background-image: url(./img/Ellipse.svg);
-    background-position: 0 24%;
-    background-size: auto, auto;
-    background-repeat: no-repeat;
 }
 header{
     padding: 0;
@@ -125,7 +121,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     color: #28313F;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
 }
 .function p{
     font-family: 'CeraRoundProMedium';
@@ -184,32 +180,23 @@ a{
     justify-content: center;
     width: 100%;
     height: auto;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin: 4% auto;
 }
-.farewell .textmedium, .farewell .textbold{
-    font-size: 16px;
-    line-height: 22px;
+.farewell p{
+    font-family: 'CeraRoundProMedium';
     text-align: center;
-    letter-spacing: -0.01em;
-    mix-blend-mode: normal;
     color: #0E2D54;
 }
-.farewell .textbold{
-    font-size: 18px;
-}
-.img_text{
+.farewell h2{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-.img_text .textbold{
-    display: flex;
-    justify-content: center;
-    width: 100%;
     text-align: center;
+    margin: 2% auto;
+    width: 80%;
+    font-family: 'CeraRoundProBold';
     font-size: 18px;
-    line-height: 140%;
+    line-height: 25px;
     color: #0F2A5A;
     flex: none;
     order: 1;
@@ -238,7 +225,7 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
-.contacts a, .rules_safety a{
+.contacts a, .rules-safety a{
     font-family: 'CeraRoundProLight';
     font-size: 17px;
     line-height: 24px;
@@ -248,78 +235,71 @@ footer{
 .number img, .mail img{
     margin-right: 5px;
 }
-.number, .privacy_policy{
+.number, .privacy-policy{
     padding-top: 7%;
 }
-.rules_safety{
+.rules-safety{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 @media screen and (max-width:300px){
     body{
-        background-image: url(./img/Ellipse2.svg);
-        background-position: 0 5%;
+        padding: 0;
     }
-    header{
+    header .logo-img{
         width: auto;
         margin-left: 27%;
         margin-right: 27%;
     }
+    header .puzzle-img{
+        width: 80%;
+    }
     .main{
         width: 90%;
-        margin: auto;
+        margin-top: 15%;
+        align-items: center;
+    }
+    h1{
     }
     footer{
         width: 100%;
     }
-    .text .textbold{
+    h1{
         width: 60%;
         font-size: 22px;
     }
-    .textregular, .text .textmedium, .watchword, .services{
+    main > p, p, .function p{
         width: 95%;
         text-align: start;
         padding-bottom: 5%;
     }
-    .introduction{
+    .function{
         margin-top: 15%;
-    }
-    .centreimg{
-        margin-left: 7.5%;
+        padding-bottom: 0;
     }
     .title{
         position: absolute;
-        margin-left: 5px;
+        margin-left: -150px;
         margin-top: -20px;
     }
-    .watchword .textregular{
-        margin: 0;
-        width: 100%;
+    ul{
+        margin-left: 0;
     }
-    .watchword .textmedium{
-        font-size: 18px;
-    }
-    ul li{
+    .function ul li{
         display: flex;
         flex-direction: column;
         color: #28313F;
         margin-bottom: 3%;
     }
-    .icons{
-        margin-left: 0;
+    .icon{
+        margin: auto auto 7% 0;
         justify-content: left;
     }
-    .services{
-        padding-bottom: 0;
-    }
-    .servise_text .textregular{
+    .function p{
         margin-left: 0;
         justify-content: left;
         margin-bottom: 3%;
-    }
-    .servise_text .name{
-        margin: 7% 0;
     }
     .farewell{
         margin: 7% auto;
@@ -328,12 +308,12 @@ footer{
         line-height: 18px;
         margin-bottom: 5%;
     }
-    .button_back{
+    .button-space{
         border-radius: 10px;
         margin-top: 0;
         padding-top: 0;
     }
-    .button_back .textmedium{
+    .button-space .textmedium{
         width: 74%;
         text-align: center;
         line-height: 20px;
@@ -359,10 +339,10 @@ footer{
         font-size: 14px;
         line-height: 18px;
     }
-    .img_text{
+    .img-text{
         margin: 0 10%;
     }
-    .img_text .text .textbold{
+    .img-text .text .textbold{
         text-align: start;
         font-size: 16px;
         width: 90%;
@@ -374,7 +354,7 @@ footer{
         align-items: start;
         padding: 12% 7%;
     }
-    .networks, .contacts, .rules_safety{
+    .networks, .contacts, .rules-safety{
         justify-content: left;
         margin: 5%;
     }
@@ -387,17 +367,17 @@ footer{
     .number{
         padding-top: 10%;
     }
-    .rules_safety a{
+    .rules-safety a{
         font-size: 14px;
         padding: 0%;
     }
     .mail{
         margin-left: 0;
     }
-    .terms_of_service, .privacy_policy{
+    .terms-of-service, .privacy-policy{
         hyphens: none;
     }
-    .rules_safety{
+    .rules-safety{
         display: flex;
         flex-direction: row;
     }
